@@ -1,0 +1,26 @@
+* {
+    font-family: sans-serif;
+}
+h3{
+    color: #1a6868;
+}
+li::marker{ /* pseudoelemento, a cor do marcador é alterado */
+    color: #1a6868;
+    font-weight: bold;
+    font-style: italic;
+}
+li{
+    line-height: 30px;
+}
+input[type="checkbox"]:checked + p{ /*quando o texto for selecionada ele vai ser traçado com uma linha*/
+    text-decoration: line-through; /* deixa a linha com risco no meio */
+}
+li > input[type="checkbox"], li > p{
+    display: inline;
+}
+li > p{
+    color: black !important;
+}
+h1 {
+    color: #12787c;
+}
